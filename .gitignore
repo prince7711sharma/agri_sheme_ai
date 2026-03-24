@@ -1,0 +1,108 @@
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# API Keys / Secrets
+# =========================
+secrets.json
+config.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Database
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Testing / coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.pid
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Model / LLM files (if large)
+# =========================
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# =========================
+# Uploads (if your API handles files)
+# =========================
+uploads/
+media/
+
+# =========================
+# Node (if frontend later)
+# =========================
+node_modules/
+
+# =========================
+# Docker
+# =========================
+*.dockerignore
+Dockerfile.local
